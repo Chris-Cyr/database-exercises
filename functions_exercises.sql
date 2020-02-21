@@ -12,7 +12,7 @@ SELECT * FROM employees WHERE last_name LIKE '%q%';
 
 ######################
 
-SELECT * FROM employees
+SELECT COUNT(*) FROM employees
 WHERE first_name = 'Irena'
     OR first_name = 'Vidya'
     OR first_name = 'Maya';
